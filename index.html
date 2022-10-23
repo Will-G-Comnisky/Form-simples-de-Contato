@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link href="./style.css" rel="stylesheet">
+
+</head>
+<body>
+    <fieldset>
+        <legend> Contato</legend>
+        <form name="contato">
+            <label for="nome"> Nome completo:</label>
+            <input id="nome" type="text" name="nome"
+            placeholder="Fulano de Tal">
+
+            <br>
+
+            <label for="email"> E-mail:</label>
+            <input id="email" type="email" name="email"
+            placeholder="exemplo@email.com">
+
+            <br>
+
+            <label for="motivo"> Setor da empresa que gostaria de contatar:</label>
+            <br>
+            <select id="motivo" name="motivo">
+                <option value=""> Selecione</option>
+                <option value="Vendas"> Vendas </option>
+                <option value="Técnico"> Técnico </option>
+                <option value="Financeiro"> Financeiro </option>
+                <option value="Projetos"> Projetos </option>
+                <option value="TI"> TI </option>
+                <option value="RH"> Recursos Humanos</option>
+                <option value="Ouvidoria"> Ouvidoria </option>
+                <option value="Outro"> Outro...</option>
+            </select>
+
+            <br>
+
+            <label for="message">Nos envie uma mensagem explicando o motivo de contato:</label>
+            <br>
+            <textarea id="message" name="message" 
+            placeholder="Digite aqui sua mensagem"></textarea>
+            <br>
+            <label for="file"> Anexar arquivo: </label>
+            <input type="file" name="file">
+            <br>
+            <br>
+            <button type="submit" name="submit-button">Enviar</button>
+        </form>
+    </fieldset>
+    
+</body>
+</html>
