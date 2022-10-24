@@ -1,6 +1,6 @@
 # Formulário Simples de Contato
 
-    ![preview](./.github/Preview.png)
+ ![preview](./.github/Preview.png)
 
  Projeto construido para testar novos conhecimentos em HTML, como a utilização dos diferentes tipos de inputs e similares.
 
